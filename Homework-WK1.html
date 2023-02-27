@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SheCodes Weather App HW1</title>
+
+  <style>
+    h1 {
+        color: #1a64d6;
+    }
+    ul {
+        text-align: center;
+        display: inline
+    }
+    button:hover {
+        color: #1a64d6;
+      background-color: #ffffff;
+      transition: all 1s ease-out;
+      cursor: pointer; 
+    }
+    li{
+      max-width: 450px;
+      border-radius: 6px;
+      display: block;
+      margin: 0 auto;
+    }
+    li:hover {
+        background-color: #FFFBEF;
+        display: block;
+    }
+
+    .weather {
+        text-align: center;
+        display: block;
+        font-size: 35px;
+        color: #1a64d6;
+    }
+    .button1 {
+        text-align: center;
+        padding: 25px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 40px;
+        box-shadow: 1px 5px 9px gray;
+        color: #fff;
+        background-color: #1a64d6;
+    }
+    
+    .bold-temp {
+        font-weight:bold;
+    }
+    .Tokyo {
+        font-size: 35px;
+        text-align: center;
+    }
+    .weekday {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Temp1 {
+        margin: 20px;
+        color: gray;
+        font-size: 20px;
+    }
+    .box-border {
+        max-width: 400px;
+        background-color:red;
+        display: inline;
+        
+    }
+    .Author {
+        text-align: center;
+        padding: 25px;
+        font-family: monospace;   
+        font-size: larger;
+     }
+  </style>
+</head>
+<body>
+    <div class="weather">🌤</div>
+<h1 class="weather">Currently 21° in Tokyo </h1>
+<div class="Tokyo" class="weather">13° / <span class="bold-temp">23°</span></div>
+<br />
+<br />
+<ul>
+    <li class="box-border">
+        <div class="weekday">🌧 Tomorrow</div>
+        <div class="Temp1">10° / <span class="bold-temp">22°</span></div>
+    </li>
+    <br />
+    <br />
+    <li>
+        <div class="weekday">🌥 Saturday</div>
+        <div class="Temp1">15° / <span class="bold-temp">22°</span></div>
+    </li>
+    <br />
+    <br />
+    <li>
+        <div class="weekday">☀️Sunday</div>
+        <div class="Temp1">25° / <span class="bold-temp">28°</span></div>
+    </li>
+    <br />
+    <br />
+</ul>
+
+<button class="button1">Change City</button>
+
+<div class="Author">Coded by Oval Manuwa</div>
+
+</body>
+</html>
